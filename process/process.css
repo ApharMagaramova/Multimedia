@@ -1,0 +1,148 @@
+body {
+    background: rosybrown;
+    background-image: url("Images/b4.gif");
+    margin: 0px auto;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 20px;
+    margin: 1rem;
+}
+
+h2 {
+    text-align: center;
+    text-size-adjust: 30px;
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+}
+
+.m1 {
+    display: flex;
+    float: right;
+    width: 45%;
+    padding: 2px;
+}
+
+.m2 {
+    display: flex;
+    float: left;
+    width: 60%;
+    padding: 2px;
+}
+
+.m3 p {
+    display: flex;
+    float: right;
+    width: 35%;
+    padding: 2px;
+    margin: 0px, auto;
+}
+
+/*.animatic{
+    left: -821px;
+    position: relative;
+    top: 20px;
+    margin: 1.5rem 0;
+}
+.story-boarding{
+    text-align: left;
+    right: 813px;
+    position: relative;
+}*/
+.img-parent {
+    display: flex;
+    padding: 0rem 1rem;
+}
+
+.img-parent p {
+    float: left;
+    width: 60%;
+    padding: 2px;
+}
+
+.img-parent img {
+    margin-right: 1rem;
+}
+
+.three-anim-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+    padding: 0rem 3rem;
+}
+
+.video-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 2rem, 2rem;
+}
+
+.pic-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    margin: 2rem, 2rem;
+}
+
+.three-d {
+    /* text-align: center; */
+    margin: 1rem;
+}
+
+.anime-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 4rem, 4rem;
+}
+
+.anime p {
+    display: flex;
+    float: left;
+    width: 50%;
+    padding: 2px;
+}
+
+.anime div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    margin: 2rem, 2rem;
+}
+
+.vfx p {
+    display: flex;
+    float: left;
+    width: 50%;
+    padding-top: 0rem;
+}
+
+.vfx div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vfx h3 {
+    display: flex;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
